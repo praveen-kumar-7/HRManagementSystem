@@ -1,0 +1,60 @@
+.recruitment-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .actions {
+    margin-bottom: 20px;
+  }
+  
+  .fetch-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fetch-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sort-select {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .recruitment-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .recruitment-table th, .recruitment-table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .description-cell {
+    max-width: 300px;
+    overflow: auto;
+  }
+  
+  .description-content {
+    max-height: 100px;
+    overflow-y: auto;
+  }
+  

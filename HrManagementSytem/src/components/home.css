@@ -1,0 +1,48 @@
+.Home {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .home-header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  .clock-container {
+    margin-bottom: 40px;
+  }
+  
+  .hr-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .hr-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .home-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .home-icons i {
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .home-icons i:hover {
+    color: #0056b3;
+  }
+  
